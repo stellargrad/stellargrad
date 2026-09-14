@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Outer glow ring -->
+  <circle cx="24" cy="24" r="22" stroke="url(#ringGrad)" stroke-width="1.5" opacity="0.6"/>
+  <!-- Background circle -->
+  <circle cx="24" cy="24" r="20" fill="url(#bgGrad)"/>
+  <!-- Star shape (Stellar reference) -->
+  <path d="M24 8 L26.5 18.5 L37 16 L29.5 23.5 L37 31 L26.5 28.5 L24 39 L21.5 28.5 L11 31 L18.5 23.5 L11 16 L21.5 18.5 Z" fill="url(#starGrad)" opacity="0.15"/>
+  <!-- Grad cap base (mortarboard) -->
+  <rect x="14" y="26" width="20" height="3" rx="1" fill="white" opacity="0.9"/>
+  <!-- Grad cap top diamond -->
+  <path d="M24 16 L35 22 L24 28 L13 22 Z" fill="white"/>
+  <!-- Grad cap shine -->
+  <path d="M24 16 L35 22 L24 28 L13 22 Z" fill="url(#capGrad)" opacity="0.3"/>
+  <!-- Tassel string -->
+  <line x1="35" y1="22" x2="35" y2="30" stroke="url(#tasselGrad)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Tassel ball -->
+  <circle cx="35" cy="31.5" r="2" fill="url(#tasselGrad)"/>
+  <!-- Star dot center -->
+  <circle cx="24" cy="22" r="2" fill="#dc2626"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a0a0a"/>
+      <stop offset="100%" stop-color="#2d0a0a"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="capGrad" x1="13" y1="16" x2="35" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="tasselGrad" x1="35" y1="22" x2="35" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+</svg>
