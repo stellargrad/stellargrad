@@ -29,7 +29,17 @@ export default function WalletGate({ children }: { children: React.ReactNode }) 
   }, []);
 
   const isPublicRoute =
-    pathname === '/' || pathname === '/offline' || pathname?.startsWith('/auth/');
+    pathname === '/' ||
+    pathname === '/offline' ||
+    pathname?.startsWith('/auth/') ||
+    pathname?.startsWith('/dashboard') ||
+    pathname?.startsWith('/courses') ||
+    pathname?.startsWith('/lessons') ||
+    pathname?.startsWith('/roadmap') ||
+    pathname?.startsWith('/playground') ||
+    pathname?.startsWith('/simulator') ||
+    pathname?.startsWith('/certificates') ||
+    pathname?.startsWith('/verify');
 
   if (isPublicRoute) {
     return <>{children}</>;
