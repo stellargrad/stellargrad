@@ -61,7 +61,7 @@
     "swagger-jsdoc": "^6.3.0",
     "swagger-ui-express": "^5.0.1",
     "winston": "^3.19.0",
-    "ws": "^8.20.0",
+    "ws": "^8.21.3",
     "y-websocket": "^3.1.0",
     "yaml": "^2.0.0",
     "yjs": "^13.6.32",
